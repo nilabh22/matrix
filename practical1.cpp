@@ -7,13 +7,9 @@ int i,j;
 for(i=0;i<x;i++) 
  { 
  
- 
 for(j=0;j<y;j++) 
  { 
- 
- 
              cin>>a[i][j]; 
- 
  } 
  } 
 } 
@@ -27,9 +23,7 @@ for(i=0;i<m;i++)
 for(j=0;j<n;j++) 
  {
  
- 
         cout<<a[i][j]<<"\t"; 
- 
  
  } 
  cout<<endl; 
@@ -46,11 +40,8 @@ int a[10][10],m,n;
 read_matrix(a,m,n); 
  
  cout<<endl; 
- 
- cout<<"You have entered following matrix"<
-  
+ cout<<"You have entered following matrix"< 
   <endl; 
- 
 display_matrix(a,m,n); 
  
 return 0;
